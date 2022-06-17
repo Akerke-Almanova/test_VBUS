@@ -1,0 +1,101 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font:inherit;
+    vertical-align: baseline;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.firstBloc__container, .secondBloc__container{
+    width: 50%;
+}
+.img_secondBloc__container{
+    max-width: 100%;
+}
+.heading__container{
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 0.2px;
+margin-bottom: 45px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    align-items: center;
+}
+.input__container_logIn, .input__container_password{
+background: #F4F7FE;
+border: 1px solid #DDE5E9;
+border-radius: 49px;
+margin-bottom: 24px;
+width: 379px;
+height: 41px;
+color: #8F9BBA;
+font-size: 14px;
+}
+.input__container_logIn, .input__container_password::-webkit-input-placeholder{
+    padding-left: 44px;
+}
+/* .input-icons i {
+    position: absolute;
+} */
+.btn__logIn{
+width: 382px;
+height: 42px;
+background: #3377FF;
+border-radius: 49px;
+border:none;
+color: #ffff;
+font-size: 14px;
+}
+
+.pic__secondBloc__container{
+background-image: url(image.svg);
+position: absolute;
+width: 126px;
+height: 62px;
+left: 980px;
+top: 414px;
+}
+
+.mask__secondBloc__container{
+background-image: url(image.svg);
+position: absolute;
+width: 212px;
+height: 201px;
+left: 936px;
+top: 230px;
+}
+p{
+    background-color: rgba(217, 217, 217, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 409px;
+    position: absolute;
+    right:176px;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    font-size: 18px;
+    line-height: 23px;
+    top: 518px;
+    font-weight:400;
+    font-style: normal;
+    
+
+
+}
+
+
